@@ -1,0 +1,50 @@
+dump.lo: dump.c \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h \
+ jansson.h jansson_config.h jansson_private.h hashtable.h strbuffer.h \
+ utf.h ../config.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h:
+
+jansson.h:
+
+jansson_config.h:
+
+jansson_private.h:
+
+hashtable.h:
+
+strbuffer.h:
+
+utf.h:
+
+../config.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:

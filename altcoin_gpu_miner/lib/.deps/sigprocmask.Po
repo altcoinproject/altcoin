@@ -1,0 +1,29 @@
+sigprocmask.o: sigprocmask.c ../config.h signal.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/signal.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h \
+ d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h
+
+../config.h:
+
+signal.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/signal.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:
+
+d:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
