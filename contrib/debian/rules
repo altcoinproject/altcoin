@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+#DEB_MAKE_CHECK_TARGET = test_altcoin
+#build/altcoind::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_altcoin)
+
+DEB_INSTALL_EXAMPLES_altcoind += debian/examples/*
+DEB_INSTALL_MANPAGES_altcoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix altcoind
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f altcoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake altcoin-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_altcoin
+	src/test_altcoin
+
+# Ensure wrapper is set executable
+binary-post-install/altcoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/altcoind
+binary-post-install/altcoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/altcoin-qt

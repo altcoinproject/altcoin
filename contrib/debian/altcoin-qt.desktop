@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Altcoin
+Comment=Altcoin P2P Cryptocurrency
+Comment[fr]=Altcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Altcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/altcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/altcoin80.xpm
+MimeType=x-scheme-handler/altcoin;
+Categories=Office;

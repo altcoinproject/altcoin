@@ -1,0 +1,9 @@
+Building Altcoin
+
+See doc/readme-qt.rst for instructions on building Altcoin-QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Altcoin.
+
+See doc/build-*.txt for instructions on building altcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Altcoin.

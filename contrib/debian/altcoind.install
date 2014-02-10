@@ -1,0 +1,2 @@
+debian/bin/altcoind usr/bin
+src/altcoind usr/lib/altcoin

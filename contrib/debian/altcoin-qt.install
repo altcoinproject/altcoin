@@ -1,0 +1,5 @@
+altcoin-qt usr/bin
+share/pixmaps/altcoin32.xpm usr/share/pixmaps
+share/pixmaps/altcoin80.xpm usr/share/pixmaps
+debian/altcoin-qt.desktop usr/share/applications
+debian/altcoin-qt.protocol usr/share/kde4/services/
