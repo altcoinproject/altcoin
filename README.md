@@ -1,11 +1,24 @@
 Altcoin - a lite version of Altcoin optimized for CPU mining using scrypt as a proof of work scheme.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+Algorithm: Scrypt-Adaptive-Nfactor (Not scrypt-jane)
+Symbol :  ALT
+Max Coins: 4294967296 altcoins.
+Block time: 1 minutes
+Subsidy halves every 840,000 blocks (~4 years)
+Difficulty Re-Target Time:  18 minutes
+Block Rewards: Random as shown in the following table:
+block number
+| Block No.                                | Reward       |   |
+|----------                                |--------------|---|
+| 1 to 131072                              | rand[1,256]  |   |
+| 131073 to 262144                         | rand[1,128]  |   |
+| 262145 to 524288                         | rand[1,64]   |   |
+| 524289 to 1048576                        | rand[1,16]   |   |
+| .................                        | .......      |   |
+random up range halves every 131072 blocks (about 3 months)
+minimum block reward is 1 ALT
 
-The rest is the same as altcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+Port: P2P 32767, RPC 32768
+
 
 Development process
 ===================
