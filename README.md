@@ -66,4 +66,4 @@ Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'. 
 
-Check out http://forum.altcoin.net/index.php/board,2.0.html for more info about the development.
+Check out https://bitcointalk.org/index.php?topic=459028 for more info about the development.
