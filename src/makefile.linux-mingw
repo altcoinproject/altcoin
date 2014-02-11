@@ -72,8 +72,8 @@ OBJS= \
 
 all: altcoind.exe
 
-obj/scrypt.o: scrypt.c
-	i586-mingw32msvc-gcc -c $(CFLAGS) -o $@ $^
+#obj/scrypt.o: scrypt.cpp
+#	i586-mingw32msvc-gcc -c $(CFLAGS) -o $@ $^
 
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h

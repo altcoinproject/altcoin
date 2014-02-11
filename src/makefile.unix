@@ -126,8 +126,8 @@ all: altcoind
 -include obj/*.P
 -include obj-test/*.P
 
-obj/scrypt.o: scrypt.c
-	gcc -c -o $@ $^
+#obj/scrypt.o: scrypt.cpp
+#	gcc -c -o $@ $^
 
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h
