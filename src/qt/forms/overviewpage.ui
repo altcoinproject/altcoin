@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>573</width>
-    <height>342</height>
+    <height>428</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -187,6 +187,16 @@
          </layout>
         </item>
        </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../res/images/splash2.png</pixmap>
+       </property>
       </widget>
      </item>
      <item>
