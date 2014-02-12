@@ -195,7 +195,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../res/images/splash2.png</pixmap>
+        <pixmap resource="../altcoin.qrc">:/icons/altcoin</pixmap>
        </property>
       </widget>
      </item>
@@ -304,6 +304,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../altcoin.qrc"/>
+ </resources>
  <connections/>
 </ui>
